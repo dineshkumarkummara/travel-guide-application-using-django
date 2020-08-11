@@ -1,0 +1,8 @@
+{% extends 'register.html' %}
+{% block content %}
+<body>
+        {%for message in messages%}
+        <h3>{{message}}</h3>
+        {%endfor%}
+</body>
+{% endblock%}

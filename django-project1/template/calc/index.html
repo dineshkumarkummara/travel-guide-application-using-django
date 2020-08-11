@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<h1>****hello {{name}}****</h1>
+<form action="add" method="POST">
+    Enter 1st number:<input type='text' name='num1'></br>
+    Enter 1st number:<input type='text' name='num2'></br>
+    <input type='submit'>
+</form>
+{% endblock%}
